@@ -1,7 +1,7 @@
 app:
   name: Tomcat Loadgen
   code: TCLG
-  notify: krishnan.rejith@gmail.com
+  notify: nmeeran@ecloucontrol.com
 
 build:
   version: 0.3
@@ -12,7 +12,7 @@ build:
 
 deploy:
   context: rejith/DEV
-  replicas: 4
+  replicas: 1
   port: 8080
   strategy : rolling
   ready_seconds : 45
